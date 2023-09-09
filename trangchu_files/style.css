@@ -46,7 +46,7 @@
 .block-wrapper .testimonials-wrapper .testimonials-content .item-info, .content-archive-wapper .content-archive .post-content .mys-button a, .content-archive-wapper .content-archive .post-meta-time, .extension-wrapper, .extension-wrapper .extension-install .extension-content, .extension-wrapper .extension-install .extension-content a, .footer-wrapper .main-footer .widget-extension .extension-item, .footer-wrapper .main-footer .widget-extension .extension-item a, .header-top-left, .header-top-left .exchange-rate, .header-top-left .hotline, .header-top-right, .header-top-right .my-account, .header-top-right .my-account > div a, .heading-title.custom .title, .main-header-wrapper .header-menu, .mys-canvas-menu .info .exchange-rate, .mys-canvas-menu .info .hotline, .mys-modal-popup, .mys-modal-popup .mys-dialog .mys-modal-content .icon, .mys-modal-popup .mys-dialog .mys-modal-content .mys-check, .mys-modal-popup .mys-dialog .mys-modal-content .mys-inp .fancy-select .fs-trigger, .mys-modal-popup .mys-dialog .mys-modal-content .mys-submit, .mys-slick-arrow .slick-arrow, .page-title-wrapper .breadcrumbs-wrapper .breadcrumbs, .page-title-wrapper .page-title-content, .price-list-wrapper .price-list-content, .price-list-wrapper .price-list-content .step-icon, .process-wrapper .item, .process-wrapper .item-info, .search-form .search-content .fancy-select, .search-form .search-content .search-submit, .section-pay-wrapper .item-content, .single-post .inner-content-post .inner-content-info .post-meta, .slick-dots {
     display: flex;
     flex-wrap: wrap;
-    align-items: center
+    align-items: top;
 }
 
 @font-face {
@@ -2431,7 +2431,7 @@ a:hover {
 }
 
 .main-header-wrapper {
-
+    height: 80px;
 }
 
 .main-header-wrapper .header-menu {
@@ -2477,7 +2477,7 @@ a:hover {
 }
 
 .main-menu {
-    padding: 0;
+    padding: 40px;
     margin: 0
 }
 
@@ -3546,7 +3546,7 @@ a:hover {
 .price-list-wrapper .price-list-content .step-icon .step-number {
     position: relative;
     z-index: 1;
-    line-height: 1;
+    line-height: inherit;
     font-size: 1.8rem;
     font-weight: 600;
     color: #f17d80

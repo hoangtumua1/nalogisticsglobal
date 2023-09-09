@@ -396,6 +396,7 @@ h6 a {
 
 .process-wrapper .item-info .process-name {
     color: #111111;
+    margin-bottom: auto;
 }
 
 body {
