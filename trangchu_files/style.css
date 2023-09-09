@@ -2431,7 +2431,7 @@ a:hover {
 }
 
 .main-header-wrapper {
-    padding: 1.5rem 0
+
 }
 
 .main-header-wrapper .header-menu {
@@ -3283,7 +3283,8 @@ a:hover {
 }
 
 .process-wrapper .item {
-    height: 100%
+    height: 100%;
+ 
 }
 
 .process-wrapper .item-info {
@@ -3305,12 +3306,12 @@ a:hover {
 
 .process-wrapper .item-info .process-name {
     flex: 1;
-    font-family: Roboto;
+    line-height: 1.8571428571429;
     font-size: 1.5rem;
-    font-weight: 700;
+    font-weight: 200;
     color: #212529;
     line-height: 1.625;
-    text-transform: uppercase
+    text-transform: none;
 }
 
 .process-wrapper .item .steps-process {
@@ -3357,8 +3358,8 @@ a:hover {
 
 .extension-wrapper.enable-gradient:before {
     content: '';
-    background-image: linear-gradient(to right, rgba(108, 134, 114, .6), rgba(129, 140, 99, .6), rgba(165, 141, 87, .6), rgba(206, 135, 94, .6), rgba(241, 125, 128, .6));
-    position: absolute;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6));
+    /* position: absolute; */
     top: 0;
     right: 0;
     bottom: 0;

@@ -20,7 +20,7 @@ Tags:           left-sidebar, right-sidebar, custom-menu, featured-images, post-
 }
 .main-header-wrapper
 {
-	padding: 1.8rem 0 1rem;
+	
 }
 @media (min-width: 62em)
 {
@@ -400,8 +400,8 @@ h6 a {
 
 body {
     line-height: 1.8571428571429;
-    color: #555555;
-    font-size: 14px;
+    color: #000000;
+    font-size: 18px;
     font-weight: 400;
 }
 
