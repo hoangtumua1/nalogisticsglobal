@@ -133,7 +133,7 @@ h1,h2,h3,h4,h5
 .service-commitment-wrapprt .commitment-list li h5
 {
 	font-size:16px;
-	color:#f17d59!important;
+	color:##ff7b00!important;
 	font-weight:500;
 }
 .service-commitment-wrapprt.enable-bg-color {
@@ -167,7 +167,7 @@ h1,h2,h3,h4,h5
 .block-wrapper .support-wrapper .support-content .item-info p
 {
 	font-style:italic;
-	color:#f17d59;
+	color:##ff7b00;
 	line-height: 16px;
 }
 .block-wrapper .support-wrapper .support-content .item-info b
@@ -198,7 +198,7 @@ h1,h2,h3,h4,h5
 .section-pay-wrapper .item-content .pay-info-branch, .section-pay-wrapper .item-content .pay-info-stk
 {
 	font-size: 14px;
-	color:#f17d59;
+	color:##ff7b00;
 	line-height: 20px;
 }
 .wrap-bang-gia .mys-table thead tr
@@ -234,7 +234,7 @@ h1,h2,h3,h4,h5
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    background-color: #f17d59;
+    background-color: ##ff7b00;
     color: #ffffff;
 }
 
@@ -253,23 +253,23 @@ input[type=button],
 input[type=submit],
 .paging-navigation .page-numbers.current,
 .wrap-bang-gia .mys-table thead tr {
-    background-color: #f17d59;
+    background-color: #ff7b00;
 }
 
 .header-top-left>div span,
 .price-list-wrapper .price-list-content .step-icon .step-number,
 .service-commitment-wrapprt .commitment-list li h5 {
-    color: #f17d59;
+    color: #ff7b00;
 }
 
 .price-list-wrapper .price-list-content .btn-more a,
 .faq-wrapper .fqa-list li.active h4,.faq-wrapper .fqa-list li.active h3,
 .content-archive-wapper .content-archive .post-content .mys-button a {
-    background-color: #f17d59;
+    background-color: #ff7b00;
 }
 
 .main-sidebar .widget-title {
-    border-color: #f17d59;
+    border-color: #ff7b00;
 }
 
 .main-sidebar .widget-extension .extension-content .caption,
@@ -293,7 +293,7 @@ input[type=submit],
 .main-menu>li:not(.active):hover>a,
 .header-top-right .my-account>div a:hover,
 .header-top-right .cart a:hover {
-    color: #f17d59;
+    color: ##ff7b00;
 }
 
 .price-list-wrapper .price-list-content .btn-more a:hover,
@@ -303,7 +303,7 @@ button:hover,
 input[type=button]:hover,
 input[type=submit]:hover,
 .footer-wrapper .footer-socials a:hover {
-    background-color: #f17d59;
+    background-color: ##ff7b00;
 }
 
 .header-nav {
