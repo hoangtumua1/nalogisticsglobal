@@ -3358,7 +3358,7 @@ a:hover {
 .extension-wrapper.enable-gradient:before {
     content: '';
     background-image: linear-gradient(to right, rgba(108, 134, 114, .6), rgba(129, 140, 99, .6), rgba(165, 141, 87, .6), rgba(206, 135, 94, .6), rgba(241, 125, 128, .6));
-    position: absolute;
+    /* position: absolute; */
     top: 0;
     right: 0;
     bottom: 0;
@@ -5064,52 +5064,4 @@ a:hover {
     }
   }
 
-  .section-pay-wrapper {
-    padding: 5rem 0 2rem;
-    background-color: #f8f8f8
-}
-
-.section-pay-wrapper .item {
-    margin-bottom: 3rem
-}
-
-.section-pay-wrapper .item-content {
-    height: 100%;
-    border: 2px dashed #f17d80;
-    padding: 1rem;
-    background: #fff
-}
-
-.section-pay-wrapper .item-content .item-image {
-    display: inline-flex;
-    height: 100%;
-    padding: 1rem;
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 40%;
-    max-width: 40%;
-    flex: 0 0 40%;
-    margin-right: 2rem;
-    border: 1px solid #e1e1e1
-}
-
-.section-pay-wrapper .item-content .item-image img {
-    object-fit: contain
-}
-
-.section-pay-wrapper .item-content .pay-info {
-    flex: 1
-}
-
-.section-pay-wrapper .item-content .pay-info-name {
-    margin-bottom: .5rem
-}
-
-.section-pay-wrapper .item-content .pay-info-branch, .section-pay-wrapper .item-content .pay-info-stk {
-    font-size: 1.5rem;
-    color: #f17d80
-}
-
-.section-pay-wrapper .item-content .pay-info-branch small, .section-pay-wrapper .item-content .pay-info-stk small {
-    color: #282d3b;
-    margin-right: .5rem
-}
+  
